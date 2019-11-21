@@ -1,14 +1,10 @@
 package org.AnimalRescuer;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-{
-    System.out.println( "Welcome to the Animal game!" );
+public class Game {
+
+    public static void main(String[] args) {
+
+
 
     Animal animalReference = new Animal();
     animalReference.name ="Azorel";
@@ -18,16 +14,16 @@ public class App
     animalReference.mood =7;
     animalReference.favoriteFood ="pedigree";
     animalReference.favoriteActivity ="run";
+        System.out.println( "Welcome to the Animal game!" );
 
-    Adopter adopterReference = new Adopter();
-    adopterReference.name ="Sorin";
+        Adopter adopterReference = new Adopter();
+        adopterReference.name ="Sorin";
     adopterReference.money =100;
 
 
-    Vet vetReference = new Vet();
-    vetReference.name = "Razvan";
-    vetReference.specialization = "medic";
-
+       Vet vetReference = new Vet();
+        vetReference.name = "Razvan";
+        vetReference.specialization = "medic";
 
 }
 }
