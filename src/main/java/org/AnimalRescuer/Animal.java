@@ -1,14 +1,23 @@
 package org.AnimalRescuer;
 
-public class Animal {
+public class Animal extends Adopter {
 
-    String name = "Azorel";
-    double age = 7;
-    double health = 5;
-    double hungry = 6;
-    double mood = 7;
-    String favoriteFood = "pedigree";
-    String favoriteActivity = "run";
+    double health;
+    double hungry;
+    double mood;
+    String favoriteFood;
+    String favoriteActivity;
+
+    private String name;
+
+    Animal() {
+        super();
+    }
+
+
+
+
+
 
 
 
